@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_store_locator'
-  s.version     = '3.0.0'
+  s.version     = '3.4.0'
   s.summary     = 'A Store Locator for your Spree Store'
   s.description = 'Show your customer where do you sell easily'
   s.required_ruby_version = '>= 2.0.0'
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 3.0.0'
+  s.add_dependency 'spree_core', '~> 3.4.0'
   s.add_dependency 'geocoder', '1.2.6'
 
   s.add_development_dependency 'capybara', '~> 2.4'
